@@ -2,7 +2,7 @@
   var app = angular.module('tutorialStore', []);
 
   app.controller('TutorialController', function(){
-    this.products = tutorials;
+    this.products = tutorial;
   });
 
   app.controller('TabController', function(){
@@ -24,7 +24,7 @@
     };
   });
 
-  var tutorials = [
+  var tutorial = [
     {
       title: "AngularJS Tutorial",
 	  image: "http://tutorials.jenkov.com/images/layout/small-portrait_mini.jpg",
